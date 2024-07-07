@@ -1,1 +1,143 @@
-test
+* {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 400vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    color: #b4b4b4;
+    background-color: #161414;
+  }
+  
+  .block {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #2c261a;
+  }
+  
+  .navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navigation-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgb(255, 255, 255); 
+  }
+  
+  .main {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section {
+    width: calc(100% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #1c201c;
+  }
+
+  .section-last {
+    border-bottom: 0;
+  }
+  
+  .title {
+    margin-bottom: 20px;  
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #948f78;
+  }
+  
+  .profile {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 28px;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+  }
+
+  .pre {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item a {
+    text-decoration: none;
+    color: #948f78;
+    transition: color 0.5s;
+  }
+ 
+  .footer {
+    background-color: #2c261a;
+    padding: 20px;  
+  }
+  
+  .footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+  }
+  
+  .github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+  }
+  
+  .rsshool {
+    width: 121px;
+    height: 45px;
+    background-image: url("https://rs.school/images/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
