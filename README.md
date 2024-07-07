@@ -1,1 +1,1 @@
-https://MaratbekovDaniyar.github.io/rsschool-cv/
+https://maratbekovdaniyar.github.io/rsschool-cv/cv
