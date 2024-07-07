@@ -134,10 +134,10 @@
     line-height: 45px;
   }
   
-  .rsshool {
+  .rsschool {
     width: 121px;
     height: 45px;
-    background-image: url("https://rs.school/images/rs_school_js.svg");
+    background-image: url("https://raw.githubusercontent.com/rolling-scopes-school/tasks/34c6c5cbc96ec26fcfdb022d1a6f3b2641f0110c/tasks/cv/rs-school-logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }

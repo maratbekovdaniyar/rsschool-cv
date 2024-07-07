@@ -11,7 +11,7 @@
 
 <body>
   <header class="header">
-    <div class="block">
+    <nav class="block">
       <ul class="navigation-list">
         <li><a class="navigation-link" href="#contacts">Contacts</a></li>
         <li><a class="navigation-link" href="#summary">Summary</a></li>
@@ -21,7 +21,7 @@
         <li><a class="navigation-link" href="#education">Education</a></li>
         <li><a class="navigation-link" href="#english">English</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
 
   <main class="main">
@@ -107,8 +107,8 @@
     
   <footer class="footer">
     <div class="block footer-block">
-      <div class="github">© 2022 <a href="https://https://github.com/MaratbekovDaniyar" class="nav-link">MaratbekovDaniyar</a></div>
-      <a href="https://rs.school/js-stage0/" class="rsshool"></a>
+      <div class="github">© 2024 <a href="https://github.com/MaratbekovDaniyar" class="nav-link">MaratbekovDaniyar</a></div>
+      <a href="https://rs.school/courses/javascript-preschool-ru" class="rsschool"></a>
     </div>
   </footer>
 </body>
