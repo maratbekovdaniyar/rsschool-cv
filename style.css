@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-width: 320px;
-    min-height: 400vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: 'Verdana', sans-serif;
@@ -121,6 +121,7 @@
   }
   
   .footer-block {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
