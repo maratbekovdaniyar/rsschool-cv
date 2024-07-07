@@ -1,115 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cv</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://rs.school/favicon.ico">
-</head>
-
-<body>
-  <header class="header">
-    <nav class="block">
-      <ul class="navigation-list">
-        <li><a class="navigation-link" href="#contacts">Contacts</a></li>
-        <li><a class="navigation-link" href="#summary">Summary</a></li>
-        <li><a class="navigation-link" href="#skills">Skills</a></li>     
-        <li><a class="navigation-link" href="#code">Code</a></li>
-        <li><a class="navigation-link" href="#projects">Projects</a></li>
-        <li><a class="navigation-link" href="#education">Education</a></li>
-        <li><a class="navigation-link" href="#english">English</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="main">
-    <div class="block">
-      <section class="section" id="profile">
-        <img src="./Photo.png" alt="Photo" class="photo">
-        <h1 class="profile">Daniyar Maratbekov</h1>
-      </section>
-
-      <section class="section" id="contacts">
-        <h2 class="title">Contacts</h2>
-        <ul class="section-list">
-          <li class="item">
-            Email: maratbekovdaniyar@gmail.com
-          </li>
-          <li class="item">
-            Discord: hyperboreh
-          </li>
-          <li class="item">
-            Discord nickname: Daniyar (@MaratbekovDaniyar)
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="summary">
-        <h2 class="title">Summary</h2>
-        <ul class="section-list">
-          <li class="item">
-            I'm starting to learn front-end development and I'm not going to stop.
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="skills">
-        <h2 class="title">Skills</h2>
-        <ul class="section-list">
-          <li class="item">
-            Completed HTML and CSS courses
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="code">
-        <h2 class="title">Code</h2>
-        <ul class="section-list">
-          <li class="item">
-<pre class="pre"><code>function multiply(a, b){
-  return a * b;
-}</code></pre>
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="projects">
-        <h2 class="title">Projects</h2>
-        <ul class="section-list">
-          <li class="item">
-            <a href="https://github.com/MaratbekovDaniyar/rsschool-cv" title="RS School CV">RS School CV</a>
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="education">
-        <h2 class="title">Education</h2>
-        <ul class="section-list">
-          <li class="item">
-            Master of Engineering on scientific and pedagogical direction
-          </li>
-        </ul>
-      </section>
-
-      <section class="section section-last" id="english">
-        <h2 class="title">English</h2>
-        <ul class="section-list">
-          <li class="item">
-            B1 - Pre-Intermediate
-          </li>
-        </ul>
-      </section>
-
-    </div>
-  </main>
-    
-  <footer class="footer">
-    <div class="block footer-block">
-      <div class="github">© 2024 <a href="https://github.com/MaratbekovDaniyar" class="nav-link">MaratbekovDaniyar</a></div>
-      <a href="https://rs.school/courses/javascript-preschool-ru" class="rsschool"></a>
-    </div>
-  </footer>
-</body>
-</html>
+<ol> 
+  <li>Daniyar Maratbekov</li>
+  <li>
+    <ul>
+      <li>Email: maratbekovdaniyar@gmail.com</li>
+      <li>Discord: hyperboreh</li>
+      <li>Discord nickname: Daniyar (@MaratbekovDaniyar)</li>
+    </ul>
+  </li>
+  <li>I'm starting to learn front-end development and I'm not going to stop.</li>
+  <li>Completed HTML and CSS courses</li>
+  <li><pre class="pre"><code>function multiply(a, b){
+    return a * b;
+  }</code></pre></li>
+  <li>https://github.com/MaratbekovDaniyar/rsschool-cv</li>
+  <li>Master of Engineering on scientific and pedagogical direction</li>
+  <li>B1 - Pre-Intermediate</li>
+</ol> 
